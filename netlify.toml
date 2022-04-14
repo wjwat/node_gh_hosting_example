@@ -2,3 +2,7 @@
   base = ""
   public = "dist/"
   command = "npm run publish"
+
+# We can specify a version of node for our site to be built with.
+[build.environment]
+  NODE_VERSION = "16.14.2"
