@@ -8,7 +8,7 @@
     "publish": "webpack --mode=production",
     "start": "npm run build && webpack-dev-server --open --mode development",
     "lint": "eslint ./src/js/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "contributors": [
